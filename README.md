@@ -58,6 +58,8 @@ the merged FFmpeg dynamic library for the Windows Universal Platform and you
 should find the appropriate builds of FFmpegUniversal libraries in the 
 `Output\FFmpegUniversal` folders. 
 
+If you don't want to read [build FFmpeg for WinRT](https://trac.ffmpeg.org/wiki/CompilationGuide/WinRT), install MSVC and MSYS2 on your Windows, install `gcc`, `pkg-config`, `diffutils`, `nasm` or `yasm` for your MSYS2 platform, then edit `BuildFFmpegUniversal.bat` to specify the location of your MSYS2 bash file, then invoke that script.
+
 Finally, enjoy it.
 
 ## License
